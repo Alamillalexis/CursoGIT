@@ -8,7 +8,8 @@ _menu()
     echo '2) Subir '
     echo '3) Apuntar a "A" '
     echo '4) Apuntar a "B" '
-    echo '5) Ver db.properties actual '
+    echo '5) Nueva Opcion'
+    echo '6) Ver db.properties actual '
     echo
     echo '9) Salir '
     echo
@@ -50,6 +51,13 @@ _apuA()
     echo ' '
     cat db.properties
 }
+
+_Nueva()
+{
+    clear
+    echo ' Nueva Ruta'
+    cd /software/webservers/
+
 
 _apuB()
 {
